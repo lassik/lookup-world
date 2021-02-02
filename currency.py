@@ -7,7 +7,7 @@ import util
 
 URL = "https://en.wikipedia.org/wiki/ISO_4217?action=raw&section=8"
 CACHE = "article.wiki"
-COLUMNS = ["Code", "Number", "Currency", "Locations", "Digits"]
+COLUMNS = ["Code", "Number", "Digits", "Currency", "Locations"]
 
 
 def cleanup_table_column(s):
